@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Under Construction</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="favicon.ico" rel="icon" type="image/x-icon" />
+    <script src="example.js"></script>
+    <link rel="stylesheet" href="packages/node_modules/7.css/dist/7.css">
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        .center-box {
+            max-width: 520px;
+            margin: 80px auto;
+            padding: 12px;
+        }
+
+        .wip-message {
+            text-align: center;
+            padding: 8px 0;
+        }
+
+        .wip-actions {
+            display: flex;
+            gap: 10px;
+            justify-content: center;
+            margin-top: 12px;
+            flex-wrap: wrap;
+        }
+
+        .wip-actions a {
+            text-decoration: none;
+        }
+    </style>
+</head>
+
+<body>
+
+    <main class="center-box">
+        <div class="window glass">
+            <div class="title-bar">
+                <div class="title-bar-text">Under Construction</div>
+            </div>
+
+            <div class="window-body">
+                <div class="wip-message">
+                    <h3>Oops!</h3>
+                    <p>This page is still under construction, please come back later.</p>
+                </div>
+                <div class="wip-actions">
+                    <button class="button primary" onclick="window.location.href='index.html'">Go to Home</button>
+                    <button class="button" onclick="history.back()">Go Back</button>
+                </div>
+            </div>
+    </main>
+
+</body>
+
+</html>
