@@ -167,6 +167,10 @@ body {
   font-size: 12px;
 }
 
+.counter-container {
+  padding: 40px;
+}
+
 /* Tablet Layout (768px and below) */
 @media (max-width: 768px) {
   .desktop {
@@ -183,10 +187,6 @@ body {
 
   .left-column,
   .right-column {
-    display: none;
-  }
-  /* hide avatar column on small screens to avoid overlap */
-  .with-avatar {
     display: none;
   }
 }
@@ -224,10 +224,6 @@ body {
   p {
     font-size: 1px;
     line-height: 1.4;
-  }
-  /* also hide avatar column for narrow mobile layouts */
-  .with-avatar {
-    display: none;
   }
 }
 
