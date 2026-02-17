@@ -1,0 +1,26 @@
+/* Utility/helper classes */
+
+a { text-decoration: none; }
+
+.monospace { font-family: Consolas, monospace !important; }
+
+.text-center { text-align: center; }
+
+.pt-6 { padding-top: 6px; }
+
+.pd-12 {
+  padding: 12px;
+}
+
+.updates-scrollable {
+  font-family: Consolas, monospace;
+  height: 200px;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 12px;
+  padding-bottom: 0px;
+}
+
+.updates-scrollable p { font-size: 12px; margin-top: 4px; }

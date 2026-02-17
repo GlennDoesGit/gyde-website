@@ -1,0 +1,28 @@
+.center-box {
+    max-width: 520px;
+    margin: 80px auto;
+    padding: 12px;
+}
+
+.wip-message {
+    text-align: center;
+    padding: 8px 0;
+}
+
+.wip-actions {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin-bottom: 16px;
+    flex-wrap: wrap;
+}
+
+.wip-actions a { text-decoration: none; }
+
+body {
+  background: url("/images/bliss2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+}
