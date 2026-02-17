@@ -10,14 +10,15 @@ body {
     width: 16px;
     height: 16px;
     margin-right: 4px;
+    margin-left: 4px;
     vertical-align: middle;
 }
 
 .header-icon {
     width: 16px;
     height: 16px;
-    margin-right: 6px;
-    margin-bottom: -3px;
+    margin-left: 4px;
+    margin-right: 4px;
 }
 
 summary {
@@ -30,6 +31,7 @@ summary {
     display: flex;
     align-items: center;
     margin-left: -18px;
+    width: 100%;
 }
 
 .explorer details {
@@ -38,8 +40,12 @@ summary {
 }
 
 .explorer a {
+    display: flex;        /* add this */
+    align-items: center;  /* add this */
+    width: 100%;          /* add this */
     border: 1px solid transparent;
     border-radius: 3px;
+    padding: 2px;
 }
 
 .explorer a:hover {

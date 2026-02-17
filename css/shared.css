@@ -77,15 +77,17 @@ body {
 }
 
 .with-avatar {
-  flex: 3;
+  /* Reserve a fixed column for avatars so content can't flow underneath */
+  flex: 0 0 120px; /* fixed width to match avatar size + padding */
   position: relative;
+  min-width: 120px;
 }
 
 .intro-avatar-floating {
   position: absolute;
   right: -25px;
-  bottom: -35px;
-  height: 250px;
+  bottom: -50px;
+  width:150px;
   z-index: 10;
   pointer-events: none;
   filter: drop-shadow(3px 4px 4px rgba(0, 0, 0, 0.5));
@@ -94,9 +96,10 @@ body {
 
 .interest-avatar-floating {
   position: absolute;
-  left: -125px;
-  top: -50px;
+  left: 0;
+  top: 0;
   height: 140px;
+  max-width: 100%;
   z-index: 10;
   pointer-events: none;
   filter: drop-shadow(3px 4px 4px rgba(0, 0, 0, 0.5));
@@ -182,6 +185,10 @@ body {
   .right-column {
     display: none;
   }
+  /* hide avatar column on small screens to avoid overlap */
+  .with-avatar {
+    display: none;
+  }
 }
 
 /* Mobile Layout (780px and below) */
@@ -192,7 +199,7 @@ body {
   }
 
   .window-body {
-    padding: 8px;
+    padding: 0px;
   }
 
   .interests-icons {
@@ -217,6 +224,10 @@ body {
   p {
     font-size: 1px;
     line-height: 1.4;
+  }
+  /* also hide avatar column for narrow mobile layouts */
+  .with-avatar {
+    display: none;
   }
 }
 
