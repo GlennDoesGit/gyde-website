@@ -20,7 +20,7 @@
 .wip-actions a { text-decoration: none; }
 
 body {
-  background: url("/images/bliss2.jpg");
+  background: url("../../images/bliss2.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
