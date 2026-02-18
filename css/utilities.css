@@ -12,15 +12,4 @@ a { text-decoration: none; }
   padding: 12px;
 }
 
-.updates-scrollable {
-  font-family: Consolas, monospace;
-  height: 200px;
-  overflow-y: auto;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
-  padding: 12px;
-  padding-bottom: 0px;
-}
-
 .updates-scrollable p { font-size: 12px; margin-top: 4px; }

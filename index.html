@@ -7,8 +7,8 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <link rel="icon" href="/images/favicon.ico" sizes="any">
-  <link rel="icon" href="/images/favicon.png" type="image/png">
+  <link rel="icon" href="images/favicon.ico" sizes="any">
+  <link rel="icon" href="images/favicon.png" type="image/png">
 
   <link rel="preload" href="/css/shared.css" as="style">
   <link rel="stylesheet" href="css/imported/7.css">
@@ -33,23 +33,29 @@
         </div>
         <div class="window-body">
           <div class="nav-section">
-            <ul class="tree-view has-container explorer">
+            <ul class="tree-view explorer">
               <li>
 
                 <details open class="folder">
                   <summary>
-                    Main Pages
+                    <b>Main Pages</b>
                   </summary>
                   <ul>
                     <li class="file">
                       <a href="wip.html">
-                        <img src="images/Icons/Guestbook.png" class="icon">
+                        <svg class="arrow" width="10" height="10" viewBox="0 0 10 10">
+                          <polygon points="2,1 8,5 2,9" fill="none" stroke="#6b6b6b" stroke-width="0.5" />
+                        </svg>
+                        <img src="images/icons/home.png" class="icon">
                         Home
                       </a>
                     </li>
                     <li class="file">
                       <a href="wip.html">
-                        <img src="images/Icons/Guestbook.png" class="icon">
+                        <svg class="arrow" width="10" height="10" viewBox="0 0 10 10">
+                          <polygon points="2,1 8,5 2,9" fill="none" stroke="#6b6b6b" stroke-width="0.5" />
+                        </svg>
+                        <img src="images/icons/about.png" class="icon">
                         About Me
                       </a>
                     </li>
@@ -58,18 +64,24 @@
 
                 <details open class="folder">
                   <summary>
-                    Interests
+                    <b>Interests</b>
                   </summary>
                   <ul>
                     <li class="file">
                       <a href="wip.html">
-                        <img src="images/Icons/Guestbook.png" class="icon">
+                        <svg class="arrow" width="10" height="10" viewBox="0 0 10 10">
+                          <polygon points="2,1 8,5 2,9" fill="none" stroke="#6b6b6b" stroke-width="0.5" />
+                        </svg>
+                        <img src="images/icons/art16.png" class="icon">
                         Art
                       </a>
                     </li>
                     <li class="file">
                       <a href="wip.html">
-                        <img src="images/Icons/Guestbook.png" class="icon">
+                        <svg class="arrow" width="10" height="10" viewBox="0 0 10 10">
+                          <polygon points="2,1 8,5 2,9" fill="none" stroke="#6b6b6b" stroke-width="0.5" />
+                        </svg>
+                        <img src="images/icons/guestbook.png" class="icon">
                         Editing
                       </a>
                     </li>
@@ -78,18 +90,24 @@
 
                 <details open class="folder">
                   <summary>
-                    Fun
+                    <b>Fun</b>
                   </summary>
                   <ul>
                     <li class="file">
                       <a href="wip.html">
-                        <img src="images/Icons/Guestbook.png" class="icon">
+                        <svg class="arrow" width="10" height="10" viewBox="0 0 10 10">
+                          <polygon points="2,1 8,5 2,9" fill="none" stroke="#6b6b6b" stroke-width="0.5" />
+                        </svg>
+                        <img src="images/icons/guestbook.png" class="icon">
                         Blog
                       </a>
                     </li>
                     <li class="file">
                       <a href="wip.html">
-                        <img src="images/Icons/Guestbook.png" class="icon">
+                        <svg class="arrow" width="10" height="10" viewBox="0 0 10 10">
+                          <polygon points="2,1 8,5 2,9" fill="none" stroke="#6b6b6b" stroke-width="0.5" />
+                        </svg>
+                        <img src="images/icons/guestbook.png" class="icon">
                         Guestbook
                       </a>
                     </li>
@@ -108,7 +126,20 @@
           <div class="title-bar-text">Links</div>
         </div>
         <div class="window-body">
+          <div class="link-body">
+              <a href="https://steamcommunity.com/id/gyde/" target="_blank">
+                <img src="images/icons/steam16.png" class="icon">
+                Steam
+              </a>
 
+              <a href="https://myanimelist.net/profile/itsgyde" target="_blank">
+                <img src="images/icons/mal16.png" class="icon">
+                MyAnimeList
+              </a>
+          </div>
+        </div>
+        <div class="with-avatar">
+          <img src="images/arc_lying.gif" class="lying-avatar-floating">
         </div>
       </div>
     </div>
@@ -121,8 +152,10 @@
           <div class="title-bar-text">Site Updates</div>
         </div>
         <div class="window-body has-scrollbar updates-scrollable">
-          <p><b>16/2/26</b><br>Website created</p>
-          <p><b>17/2/26</b><br>Added window for cool neocity sites!</p>
+          <p><b>16/2/26:</b></p>
+          <ul style="padding-left: 4px">website started</ul>
+          <p><b>17/2/26:</b></p>
+          <ul style="padding-left: 4px">added some indie web elements</ul>
         </div>
       </div>
 
@@ -130,9 +163,9 @@
         <div class="title-bar">
           <div class="title-bar-text">My Time</div>
         </div>
-        <div class="window-body text-center pt-6">
-          <iframe src="https://free.timeanddate.com/clock/iaah1jna/n236/tlsg/fn12/tct/pct/th2/ta1" frameborder="0"
-            width="129" height="16" allowtransparency="true"></iframe>
+        <div class="window-body text-center my-time">
+          <iframe src="https://free.timeanddate.com/clock/iaaigozz/n236/fn12/fs12/tct/pct/ts1/ta1" frameborder="0"
+            width="132" height="14" allowtransparency="true"></iframe>
         </div>
       </div>
 
@@ -141,11 +174,11 @@
           <div class="title-bar-text">Site Visits</div>
         </div>
 
-        <div class="window-body text-center">
+        <div class="window-body text-center pd-12">
 
           <!-- fallback message (hidden by default) -->
           <div id="counter-fallback" style="display:none;">
-            Blocked by Adblocker!
+            blocked by adblocker!
           </div>
 
           <div id="counter-container"></div>
@@ -192,7 +225,7 @@
           <div class="small-screen-menubar">
             <!-- Menubar for small screens -->
             <ul role="menubar" class="can-hover" aria-label="Main menu">
-              <li role="menuitem" tabindex="0" data-href="index.html">Home</li>
+              <li role="menuitem" tabindex="0" data-href="gydecorner.html">Home</li>
 
               <li role="menuitem" tabindex="0" data-href="wip.html">About Me</li>
 
@@ -245,9 +278,55 @@
             </div>
 
           </div>
+
+
           <div class="intro-bottom">
             <button>Back to Main</button>
           </div>
+
+        </div>
+      </div>
+
+      <div class="button-scroll">
+        <div class="button-scroll-content">
+
+          <!-- original -->
+          <img src="images/buttons/construction.gif" />
+          <img src="images/buttons/winxp.gif" />
+          <img src="images/buttons/imissxp.gif" />
+          <img src="images/buttons/www.gif" />
+          <img src="images/buttons/nocookie.gif" />
+          <img src="images/buttons/bestvw.gif" />
+          <img src="images/buttons/best_viewed_with_open_eyes.gif" />
+          <img src="images/buttons/geocities5.gif" />
+          <img src="images/buttons/neocities_button.gif" />
+          <img src="images/buttons/neocities-now.gif" />
+          <img src="images/buttons/signguest.gif" />
+          <img src="images/buttons/vscbutton.gif" />
+          <img src="images/buttons/internetarchive.gif" />
+          <img src="images/buttons/itoddler.gif" />
+          <img src="images/buttons/kys_now.gif" />
+          <img src="images/buttons/ltt.gif" />
+          <img src="images/buttons/reshirii.gif" />
+
+          <!-- duplicated for seamless loop -->
+          <img src="images/buttons/construction.gif" />
+          <img src="images/buttons/winxp.gif" />
+          <img src="images/buttons/imissxp.gif" />
+          <img src="images/buttons/www.gif" />
+          <img src="images/buttons/nocookie.gif" />
+          <img src="images/buttons/bestvw.gif" />
+          <img src="images/buttons/best_viewed_with_open_eyes.gif" />
+          <img src="images/buttons/geocities5.gif" />
+          <img src="images/buttons/neocities_button.gif" />
+          <img src="images/buttons/neocities-now.gif" />
+          <img src="images/buttons/signguest.gif" />
+          <img src="images/buttons/vscbutton.gif" />
+          <img src="images/buttons/internetarchive.gif" />
+          <img src="images/buttons/itoddler.gif" />
+          <img src="images/buttons/kys_now.gif" />
+          <img src="images/buttons/ltt.gif" />
+          <img src="images/buttons/reshirii.gif" />
 
         </div>
       </div>
@@ -266,39 +345,35 @@
         <div class="window-body">
           <div class="interests-icons">
             <a href="wip.html" class="interest-item">
-              <img src="/images/Icons/Art.png">
+              <img src="images/icons/Art.png">
               <span>Art</span>
             </a>
 
             <a href="wip.html" class="interest-item">
-              <img src="/images/Icons/Music.png">
+              <img src="images/icons/Music.png">
               <span>Music</span>
             </a>
 
             <a href="wip.html" class="interest-item">
-              <img src="/images/Icons/Programming.png">
+              <img src="images/icons/Programming.png">
               <span>Programming</span>
             </a>
 
             <a href="wip.html" class="interest-item">
-              <img src="/images/Icons/Games.png">
+              <img src="images/icons/Games.png">
               <span>Games</span>
             </a>
 
             <a href="wip.html" class="interest-item">
-              <img src="/images/Icons/Media.png">
+              <img src="images/icons/Media.png">
               <span>Media</span>
             </a>
 
             <a href="wip.html" class="interest-item">
-              <img src="/images/Icons/Editing.png">
+              <img src="images/icons/Editing.png">
               <span>Editing</span>
             </a>
 
-          </div>
-
-          <div class="with-avatar">
-            <img src="images/arc_lying.gif" class="interest-avatar-floating">
           </div>
         </div>
       </div>

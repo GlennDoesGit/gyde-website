@@ -1,4 +1,0 @@
-/* Legacy entrypoint: split styles into smaller files
-   See: css/shared.css, css/utilities.css, css/pages/*.css */
-@import url("shared.css");
-@import url("utilities.css");
